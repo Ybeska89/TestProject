@@ -1,0 +1,408 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is logged in to the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6512000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to the login page",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.user_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1692000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with credentials as \"yaso.kardes@gmail.com\" and \"Merlin8589\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yaso.kardes@gmail.com\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Merlin8589\"",
+                  "offset": 61
+                }
+              ],
+              "location": "lovevery.stepdefinitions.LoveverySteps.user_login_with_credentials_as_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5022000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T20:16:26.205Z",
+        "line": 11,
+        "name": "Purchasing a product and verifying totals for Play Gym \u0026 Block Set",
+        "description": "",
+        "id": "purchasing-and-verify-multiple-items;purchasing-a-product-and-verifying-totals-for-play-gym-\u0026-block-set",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2613000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User navigates to Block Set",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.navicates_to_Block_Set()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4382000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Adds block set to Cart",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.adds_block_set_to_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5367000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Navigates to Play Gym",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.navigates_to_Play_Gym()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4731000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Adds play gym to Cart",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.adds_play_gym_to_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5744000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Continue to checkout",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.continue_to_checkout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5873000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Fills up credidentials and continues to shipping",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.fills_up_credidentials_and_continues_to_shipping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3396000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Selects shipping option and continues to payment",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.selects_shipping_option_and_continues_to_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2433000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Fills up payment information and continues with Pay Now",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.fills_up_payment_information_and_continues_with_Pay_Now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9836000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify totals for Play Gym \u0026 Block Set as \"$244.38\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$244.38\"",
+                  "offset": 42
+                }
+              ],
+              "location": "lovevery.stepdefinitions.LoveverySteps.verify_totals_for_Play_Gym_Block_Set_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchasing and Verify multiple items",
+    "description": "",
+    "id": "purchasing-and-verify-multiple-items",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/PracticeFeatures/LoveryFirstTest.feature",
+    "tags": []
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is logged in to the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6478000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigate to the login page",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.user_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 664000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User logs in with credentials as \"yaso.kardes@gmail.com\" and \"Merlin8589\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"yaso.kardes@gmail.com\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"Merlin8589\"",
+                  "offset": 61
+                }
+              ],
+              "location": "lovevery.stepdefinitions.LoveverySteps.user_login_with_credentials_as_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5011000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be logged in",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-20T20:17:23.874Z",
+        "line": 11,
+        "name": "Adding an extra Play gym then remove to purchase one Play Gym and one Block Set with Next Day Shipping.",
+        "description": "",
+        "id": "purchasing-and-verify-multiple-items-with-next-day-shipping.;adding-an-extra-play-gym-then-remove-to-purchase-one-play-gym-and-one-block-set-with-next-day-shipping.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2289000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User navigates to Block Set",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.navicates_to_Block_Set()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 588000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Increases Block Set to Two Block Set",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.increases_Block_Set_to_Two_Block_Set()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4564000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Adds block set to Cart",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.adds_block_set_to_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5619000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Navigates to Play Gym",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.navigates_to_Play_Gym()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4605000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Adds play gym to Cart",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.adds_play_gym_to_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6397000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Removes One Block Set from cart",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.removes_One_Block_Set_from_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4426000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Continue to checkout",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.continue_to_checkout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5265000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Fills up credidentials and continues to shipping",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.fills_up_credidentials_and_continues_to_shipping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3243000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Selects premium shipping option and continues to payment",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.selects_premium_shipping_option_and_continues_to_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2257000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Fills up payment information and continues with Pay Now",
+            "match": {
+              "location": "lovevery.stepdefinitions.LoveverySteps.fills_up_payment_information_and_continues_with_Pay_Now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9671000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Verify totals for Play Gym \u0026 Block Set as \"$261.32\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$261.32\"",
+                  "offset": 42
+                }
+              ],
+              "location": "lovevery.stepdefinitions.LoveverySteps.verify_totals_for_Play_Gym_Block_Set_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Purchasing and Verify multiple items with Next Day Shipping.",
+    "description": "",
+    "id": "purchasing-and-verify-multiple-items-with-next-day-shipping.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/PracticeFeatures/LoveverySecond.feature",
+    "tags": []
+  }
+]

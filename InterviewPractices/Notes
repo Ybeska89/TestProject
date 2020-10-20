@@ -1,0 +1,44 @@
+Notes
+
+Create Maven project
+Upgrade java to 1.8 
+https://mvnrepository.com/
+Get Dependencies
+Install plugin to make cucumber feature look good if not have
+Make folder in resources - Features folder
+Create a feature file for test cases
+Create 4 packages pages, runner,stepdefinitions,utilities
+Create a Runner class with @RunWith(Cucumber.class) and @CucumberOptions(feature= "" , glue={""})
+Set up in Runner the reports, json, html, junit to the @CucumberOptions
+Create class in setpdefinitions
+Run feature file and copy the method into the proper stepdefinitions
+Set up Driver
+Set up Properties folder with properties file 
+set up properties reader
+
+//   	String cardNum = "4111 1111 1111 1111"	;
+//   	for(int i=0;i<cardNum.length();i++){
+//           cardBoxInside.sendKeys(cardNum.substring(i).split(""));	
+        
+  //  cardName.sendKeys("Yasin Beskardes");
+ //   cardExp.sendKeys("0121");
+  //  cardCode.sendKeys("3434");
+        
+        
+        //*[@required autocomplete="cc-number"]
+
+//		JavascriptExecutor js = (JavascriptExecutor) LoveveryDriver.getDriver();
+//		js.executeScript("arguments[0].value = '411111';", cardNumber); 
+//		"arguments[0].value='Avinash Mishra';", webl
+	//	"arguments[0].setAttribute('value', arguments[1])", cardNumber, cardNum
+	//	"arguments[1].value = arguments[0]; ", cardNumber
+	
+	
+	//		String cardNum = "4111111111111111"	;
+//	   	for(int i=0;i<cardNum.length();i++){
+//	   		
+//	   		char c = cardNum.charAt(i);
+//	   		String s = new StringBuilder().append(c).toString();
+//	           cardBoxInside.sendKeys(s);	
+//		
+	        
