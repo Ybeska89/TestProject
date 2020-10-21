@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="118.944">
-<testcase classname="Purchasing and Verify multiple items" name="Purchasing a product and verifying totals for Play Gym &amp; Block Set" time="57.657">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="123.113">
+<testcase classname="Purchasing and Verify multiple items" name="Purchasing a product and verifying totals for Play Gym &amp; Block Set" time="59.938">
 <system-out><![CDATA[Given User navigate to the login page.......................................passed
 And User logs in with credentials as "yaso.kardes@gmail.com" and "Merlin8589".passed
 Then User should be logged in...............................................passed
@@ -15,7 +15,7 @@ And Fills up payment information and continues with Pay Now.................pass
 Then Verify totals for Play Gym & Block Set as "$244.38"....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Purchasing and Verify multiple items with Next Day Shipping." name="Adding an extra Play gym then remove to purchase one Play Gym and one Block Set with Next Day Shipping." time="61.084">
+<testcase classname="Purchasing and Verify multiple items with Next Day Shipping." name="Adding an extra Play gym then remove to purchase one Play Gym and one Block Set with Next Day Shipping." time="62.85">
 <system-out><![CDATA[Given User navigate to the login page.......................................passed
 And User logs in with credentials as "yaso.kardes@gmail.com" and "Merlin8589".passed
 Then User should be logged in...............................................passed

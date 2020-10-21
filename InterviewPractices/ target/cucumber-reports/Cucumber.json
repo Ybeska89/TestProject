@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6512000000,
+              "duration": 7985000000,
               "status": "passed"
             },
             "line": 6,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 1692000000,
+              "duration": 1167000000,
               "status": "passed"
             },
             "line": 7,
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 5022000000,
+              "duration": 5015000000,
               "status": "passed"
             },
             "line": 8,
@@ -58,7 +58,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-20T20:16:26.205Z",
+        "start_timestamp": "2020-10-20T23:00:26.861Z",
         "line": 11,
         "name": "Purchasing a product and verifying totals for Play Gym \u0026 Block Set",
         "description": "",
@@ -68,7 +68,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2613000000,
+              "duration": 2937000000,
               "status": "passed"
             },
             "line": 13,
@@ -80,7 +80,7 @@
           },
           {
             "result": {
-              "duration": 4382000000,
+              "duration": 4880000000,
               "status": "passed"
             },
             "line": 14,
@@ -92,7 +92,7 @@
           },
           {
             "result": {
-              "duration": 5367000000,
+              "duration": 5182000000,
               "status": "passed"
             },
             "line": 15,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 5744000000,
+              "duration": 6052000000,
               "status": "passed"
             },
             "line": 17,
@@ -128,7 +128,7 @@
           },
           {
             "result": {
-              "duration": 5873000000,
+              "duration": 6915000000,
               "status": "passed"
             },
             "line": 18,
@@ -140,7 +140,7 @@
           },
           {
             "result": {
-              "duration": 3396000000,
+              "duration": 3063000000,
               "status": "passed"
             },
             "line": 19,
@@ -152,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 2433000000,
+              "duration": 2254000000,
               "status": "passed"
             },
             "line": 20,
@@ -164,7 +164,7 @@
           },
           {
             "result": {
-              "duration": 9836000000,
+              "duration": 9676000000,
               "status": "passed"
             },
             "line": 21,
@@ -202,7 +202,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6478000000,
+              "duration": 6541000000,
               "status": "passed"
             },
             "line": 6,
@@ -214,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 664000000,
+              "duration": 957000000,
               "status": "passed"
             },
             "line": 7,
@@ -236,7 +236,7 @@
           },
           {
             "result": {
-              "duration": 5011000000,
+              "duration": 5010000000,
               "status": "passed"
             },
             "line": 8,
@@ -249,7 +249,7 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-20T20:17:23.874Z",
+        "start_timestamp": "2020-10-20T23:01:26.812Z",
         "line": 11,
         "name": "Adding an extra Play gym then remove to purchase one Play Gym and one Block Set with Next Day Shipping.",
         "description": "",
@@ -259,7 +259,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2289000000,
+              "duration": 2407000000,
               "status": "passed"
             },
             "line": 13,
@@ -271,7 +271,7 @@
           },
           {
             "result": {
-              "duration": 588000000,
+              "duration": 546000000,
               "status": "passed"
             },
             "line": 14,
@@ -283,7 +283,7 @@
           },
           {
             "result": {
-              "duration": 4564000000,
+              "duration": 4679000000,
               "status": "passed"
             },
             "line": 15,
@@ -295,7 +295,7 @@
           },
           {
             "result": {
-              "duration": 5619000000,
+              "duration": 5135000000,
               "status": "passed"
             },
             "line": 16,
@@ -307,7 +307,7 @@
           },
           {
             "result": {
-              "duration": 4605000000,
+              "duration": 4706000000,
               "status": "passed"
             },
             "line": 17,
@@ -319,7 +319,7 @@
           },
           {
             "result": {
-              "duration": 6397000000,
+              "duration": 6281000000,
               "status": "passed"
             },
             "line": 18,
@@ -331,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 4426000000,
+              "duration": 5247000000,
               "status": "passed"
             },
             "line": 19,
@@ -343,7 +343,7 @@
           },
           {
             "result": {
-              "duration": 5265000000,
+              "duration": 6253000000,
               "status": "passed"
             },
             "line": 20,
@@ -355,7 +355,7 @@
           },
           {
             "result": {
-              "duration": 3243000000,
+              "duration": 1120000000,
               "status": "passed"
             },
             "line": 21,
@@ -367,7 +367,7 @@
           },
           {
             "result": {
-              "duration": 2257000000,
+              "duration": 5232000000,
               "status": "passed"
             },
             "line": 22,
@@ -379,7 +379,7 @@
           },
           {
             "result": {
-              "duration": 9671000000,
+              "duration": 8732000000,
               "status": "passed"
             },
             "line": 23,
