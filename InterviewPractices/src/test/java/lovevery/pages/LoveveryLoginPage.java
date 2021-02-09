@@ -1,4 +1,4 @@
-package lovevery.pages;
+mpackage lovevery.pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
