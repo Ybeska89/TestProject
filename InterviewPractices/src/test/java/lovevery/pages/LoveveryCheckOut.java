@@ -116,13 +116,34 @@ public class LoveveryCheckOut {
 		WebElement cardBoxInside = LoveveryDriver.getDriver().findElement(By.xpath("/html/body/form/input[1]"));
 	
 		String cardNum = "4111111111111111"	;
-	
-	   	for(int i=0;i<cardNum.length();i++){
-	   		char c = cardNum.charAt(i);
-   		String s = new StringBuilder().append(c).toString();
-           cardBoxInside.sendKeys(s);	
-	   	}
 		
+//	   	for(int i=0;i<cardNum.length();i++){
+//	   		char c = cardNum.charAt(i);
+//   		String s = new StringBuilder().append(c).toString();
+//           cardBoxInside.sendKeys(s);	
+//	   	}
+//		
+//	   	char[] ch = new char[cardNum.length()];
+//
+//	   	for (int i = 0; i < cardNum.length(); i++) {
+//	   		ch[i] = cardNum.charAt(i);
+//			
+//		}
+//	   	
+//	   	for(char s: ch) {
+//	   		String str = String.valueOf(s);
+//	   		cardBoxInside.sendKeys(str);
+//	   	}
+	   	
+	   	
+	   	char[] abc = cardNum.toCharArray();
+	   	for (char number: abc) {
+	   		String str = String.valueOf(number);
+	   		cardBoxInside.sendKeys(str);
+	   	}
+	   	
+	   	
+	   	
 		LoveveryDriver.getDriver().switchTo().defaultContent();
 
 		LoveveryDriver.getDriver().switchTo().frame(cardName);
@@ -147,8 +168,8 @@ public class LoveveryCheckOut {
 		WebElement codeInsideFrame =LoveveryDriver.getDriver().findElement(By.xpath("/html/body/form/input[6]"));
 		codeInsideFrame.sendKeys("828");
 		
-		LoveveryDriver.getDriver().switchTo().defaultContent();
-		payNow.click();
+		//LoveveryDriver.getDriver().switchTo().defaultContent();
+		//payNow.click();
 		
 	}
 	
